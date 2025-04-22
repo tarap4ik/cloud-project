@@ -1,0 +1,5 @@
+#http://localhost:8080/.well-known/openid-configuration
+
+#http://localhost:8080/oauth2/authorize?response_type=code&client_id=client&redirect_uri=http://localhost:8080&scope=openid
+
+#curl -u "client:secret" -H "Content-Type: application/x-www-form-urlencoded" -X POST http://localhost:8080/oauth2/token -d "client_id=client&grant_type=authorization_code&code=tmOvX9DDxTQlcJgyzizTk25ksHdwvsvMmhr_ns0svgCyMlTTplmm2gGZv3_YDx2Jc0MCEVpRxgmhbuvlrkCV46ciCs-MS8QI72j_21YB3YElay4sGBc94pmXBCR4-zzy&redirect_uri=http://localhost:8080"
